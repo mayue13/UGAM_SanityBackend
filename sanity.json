@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "UGAM_SanityBackend"
-  },
   "api": {
     "projectId": "b8roi6m6",
     "dataset": "production"
+  },
+  "project": {
+    "name": "UGAM_SanityBackend"
   },
   "plugins": [
     "@sanity/base",
