@@ -1,6 +1,6 @@
 export default {
-    name: 'works',
-    title: 'Works',
+    name: 'events',
+    title: 'events',
     type: 'document',
     fields: [
       {
@@ -15,14 +15,14 @@ export default {
         type: 'string',
       },
       {
-        name: 'projectLink',
-        title: 'Project Link',
+        name: 'location',
+        title: 'Location',
         type: 'string',
       },
       {
-        name: 'codeLink',
-        title: 'Code Link',
-        type: 'string',
+        name: 'date',
+        title: 'Date',
+        type: 'datetime',
       },
       {
         name: 'imgUrl',
